@@ -63,7 +63,7 @@ def gerar_menu_lateral():
  st.sidebar.title("📊 Menu")
  st.sidebar.write("Navegue pelas páginas abaixo:")
  st.sidebar.page_link("App.py", label="🏠 Página Inicial")
- st.sidebar.page_link("pages/Analise_Exploratoria.py", label="📊 Análise exploratória")
+ st.sidebar.page_link("pages/Analise_exploratoria.py", label="📊 Análise exploratória")
  st.sidebar.page_link("pages/Machine_Learning.py", label="🤖 Machine Learning")
  st.sidebar.page_link("pages/Team.py", label=":technologist: Equipe")
 

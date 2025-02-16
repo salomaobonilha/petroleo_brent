@@ -62,7 +62,7 @@ with tab1:
 
     st.subheader("2. Análise histórica da cotação do petróleo ")
 
-    st.image(image='images\Captura de tela 2025-02-16 064638.png')
+    st.image(image='images/Captura de tela 2025-02-16 064638.png')
 
     st.markdown('''
     - O gráfico apresenta a evolução da cotação do petróleo ao longo dos anos. 
@@ -77,7 +77,7 @@ with tab1:
 
     **Definição**: A demanda por energia está relacionada ao consumo de combustíveis fósseis por indústrias, transportes e residências. Um aumento na demanda pode pressionar os preços do petróleo para cima, enquanto uma redução pode gerar quedas. ''')
 
-    st.image(image='images\Captura de tela 2025-02-16 065645.png')
+    st.image(image='images/Captura de tela 2025-02-16 065645.png')
 
     st.markdown('''
     Eventos Relacionados:  
@@ -101,7 +101,7 @@ with tab1:
 
     **Definição**: Crises financeiras impactam a demanda por petróleo devido à redução do consumo industrial e à retração do crescimento econômico global. Essas crises geralmente levam à queda nos preços do petróleo. ''')
 
-    st.image(image='images\Captura de tela 2025-02-16 070438.png')
+    st.image(image='images/Captura de tela 2025-02-16 070438.png')
 
     st.markdown('''
     Eventos Relacionados:  
@@ -121,7 +121,7 @@ with tab1:
 
     **Definição**: Eventos históricos, como guerras, conflitos e mudanças estratégicas na produção de petróleo, impactam a oferta global e influenciam diretamente os preços. ''')
 
-    st.image(image='images\Captura de tela 2025-02-16 070929.png')
+    st.image(image='images/Captura de tela 2025-02-16 070929.png')
 
     st.markdown('''
     Eventos Relacionados:  
@@ -139,7 +139,7 @@ with tab1:
 
     **Definição**: Situações geopolíticas, como tensões diplomáticas e instabilidade em regiões produtoras de petróleo, podem afetar o suprimento e elevar os preços devido à incerteza dos mercados. ''')
 
-    st.image(image='images\Captura de tela 2025-02-16 071354.png')
+    st.image(image='images/Captura de tela 2025-02-16 071354.png')
 
     st.markdown('''
     Eventos Relacionados:  

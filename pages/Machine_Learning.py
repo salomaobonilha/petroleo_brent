@@ -52,19 +52,19 @@ with tab1:
 
     st.write('A primeira etapa foi a importação das bibliotecas necessárias para o projeto. Cada uma desempenha um papel específico no tratamento de dados, modelagem e visualização. ')
 
-    st.image(image="images\Captura de tela 2025-02-15 152051.png")
+    st.image(image="images/Captura de tela 2025-02-15 152051.png")
 
-    st.image(image="images\Captura de tela 2025-02-15 152233.png")
+    st.image(image="images/Captura de tela 2025-02-15 152233.png")
 
     st.subheader('2. Coleta e preparação de dados')
 
     st.markdown('''Realizamos o carregamento dos dados históricos do **IPEADATA**. A partir da última data registrada, complementamos com os dados mais recentes do **Yahoo Finance**. Isso garante um conjunto de dados atualizado e confiável. Criamos uma classe chamada `ForecastPetroleo()` para agrupar todas as funções necessárias. Ao inicializar essa classe, os dados já são automaticamente carregados e organizados. ''')
 
-    st.image(image="images\Captura de tela 2025-02-15 152341.png")
+    st.image(image="images/Captura de tela 2025-02-15 152341.png")
 
     st.markdown('''Para baixar os dados do **Yahoo Finance**, utilizamos a função `download_yahoo_finance()`, que retorna um `DataFrame(df_yf)` pronto para uso. ''')
 
-    st.image(image="images\Captura de tela 2025-02-15 152355.png")
+    st.image(image="images/Captura de tela 2025-02-15 152355.png")
 
     st.markdown(
     """
@@ -78,7 +78,7 @@ with tab1:
     unsafe_allow_html=True
 )
     
-    st.image(image="images\Captura de tela 2025-02-15 152441.png")
+    st.image(image="images/Captura de tela 2025-02-15 152441.png")
 
     st.subheader('3. Treinando o modelo XGBoost')
 
@@ -92,7 +92,7 @@ with tab1:
         """,
         unsafe_allow_html=True)
    
-    st.image(image="images\Captura de tela 2025-02-15 152508.png")
+    st.image(image="images/Captura de tela 2025-02-15 152508.png")
 
     st.markdown(
         """
@@ -104,7 +104,7 @@ with tab1:
         """,
         unsafe_allow_html=True)
     
-    st.image(image="images\Captura de tela 2025-02-15 152518.png")
+    st.image(image="images/Captura de tela 2025-02-15 152518.png")
 
     st.subheader('4. Avaliação do modelo')
 
@@ -130,11 +130,11 @@ with tab1:
                 
 ''')
     
-    st.image(image="images\Captura de tela 2025-02-15 152536.png")
+    st.image(image="images/Captura de tela 2025-02-15 152536.png")
 
-    st.image(image="images\Captura de tela 2025-02-15 152545.png")
+    st.image(image="images/Captura de tela 2025-02-15 152545.png")
 
-    st.image(image="images\Captura de tela 2025-02-15 152558.png")
+    st.image(image="images/Captura de tela 2025-02-15 152558.png")
 
     st.subheader('5. Fazendo previsões')
 
@@ -155,17 +155,17 @@ with tab1:
     """
 )
 
-    st.image(image="images\Captura de tela 2025-02-15 152613.png")
+    st.image(image="images/Captura de tela 2025-02-15 152613.png")
     
     st.subheader('6. Visualização das previsões')
 
     st.markdown('''Para facilitar a análise dos resultados, geramos gráficos que mostram a comparação entre valores reais e previstos. Criamos funções específicas para essa tarefa, garantindo uma visualização clara dos dados. ''')
     
-    st.image(image="images\Captura de tela 2025-02-15 152628.png")
+    st.image(image="images/Captura de tela 2025-02-15 152628.png")
 
-    st.image(image="images\Captura de tela 2025-02-15 152649.png")
+    st.image(image="images/Captura de tela 2025-02-15 152649.png")
 
-    st.image(image="images\Captura de tela 2025-02-15 152715.png")
+    st.image(image="images/Captura de tela 2025-02-15 152715.png")
 
     st.subheader('Conclusão')
 

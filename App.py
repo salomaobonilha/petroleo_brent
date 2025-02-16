@@ -7,7 +7,15 @@ st.set_page_config(page_title="Início", layout="wide", initial_sidebar_state="c
         'About': None  # Remove o link "About"
     }
         )
-
+# Aplica estilo customizado para garantir o tema branco
+st.markdown(
+    """
+    <style>
+        body { background-color: white !important; }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 hide_default_menu = """
  <style>
     /* Oculta o menu lateral padrão do Streamlit */
